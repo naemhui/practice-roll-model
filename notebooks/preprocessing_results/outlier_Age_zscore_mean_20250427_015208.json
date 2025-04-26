@@ -1,0 +1,73 @@
+{
+  "column": "Age",
+  "method": "zscore",
+  "treatment": "mean",
+  "description": "Age 컬럼의 이상치를 평균값(29.70)으로 대체",
+  "outlier_count": 2,
+  "outlier_ratio": 0.2801120448179272,
+  "outlier_indices": [
+    630,
+    851
+  ],
+  "original_rows": [
+    {
+      "PassengerId": 631,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Barkworth, Mr. Algernon Henry Wilson",
+      "Sex": "male",
+      "Age": 80.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "27042",
+      "Fare": 30.0,
+      "Cabin": "A23",
+      "Embarked": "S"
+    },
+    {
+      "PassengerId": 852,
+      "Survived": 0,
+      "Pclass": 3,
+      "Name": "Svensson, Mr. Johan",
+      "Sex": "male",
+      "Age": 74.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "347060",
+      "Fare": 7.775,
+      "Cabin": NaN,
+      "Embarked": "S"
+    }
+  ],
+  "changed_rows": [
+    {
+      "PassengerId": 631,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Barkworth, Mr. Algernon Henry Wilson",
+      "Sex": "male",
+      "Age": 29.69911764705882,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "27042",
+      "Fare": 30.0,
+      "Cabin": "A23",
+      "Embarked": "S"
+    },
+    {
+      "PassengerId": 852,
+      "Survived": 0,
+      "Pclass": 3,
+      "Name": "Svensson, Mr. Johan",
+      "Sex": "male",
+      "Age": 29.69911764705882,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "347060",
+      "Fare": 7.775,
+      "Cabin": NaN,
+      "Embarked": "S"
+    }
+  ],
+  "timestamp": "2025-04-27 01:52:08"
+}
