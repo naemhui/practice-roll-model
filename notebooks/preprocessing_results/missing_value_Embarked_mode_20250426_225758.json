@@ -1,0 +1,70 @@
+{
+  "column": "Embarked",
+  "method": "mode",
+  "fill_value": "S",
+  "changed_indices": [
+    61,
+    829
+  ],
+  "original_rows": [
+    {
+      "PassengerId": 62,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Icard, Miss. Amelie",
+      "Sex": "female",
+      "Age": 38.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "113572",
+      "Fare": 80.0,
+      "Cabin": "B28",
+      "Embarked": NaN
+    },
+    {
+      "PassengerId": 830,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Stone, Mrs. George Nelson (Martha Evelyn)",
+      "Sex": "female",
+      "Age": 62.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "113572",
+      "Fare": 80.0,
+      "Cabin": "B28",
+      "Embarked": NaN
+    }
+  ],
+  "changed_rows": [
+    {
+      "PassengerId": 62,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Icard, Miss. Amelie",
+      "Sex": "female",
+      "Age": 38.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "113572",
+      "Fare": 80.0,
+      "Cabin": "B28",
+      "Embarked": "S"
+    },
+    {
+      "PassengerId": 830,
+      "Survived": 1,
+      "Pclass": 1,
+      "Name": "Stone, Mrs. George Nelson (Martha Evelyn)",
+      "Sex": "female",
+      "Age": 62.0,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "113572",
+      "Fare": 80.0,
+      "Cabin": "B28",
+      "Embarked": "S"
+    }
+  ],
+  "timestamp": "2025-04-26 22:57:58"
+}
